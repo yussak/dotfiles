@@ -1,0 +1,8 @@
+name: default
+windows:
+  - name: main
+    layout: even-horizontal  # 横並び均等分割
+    panes:
+      - shell
+      - shell
+      - shell
