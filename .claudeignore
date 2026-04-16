@@ -1,0 +1,10 @@
+# OS生成ファイル
+*.DS_Store
+Thumbs.db
+
+# エディタ一時ファイル
+*.swp
+*.swo
+*~
+
+node_modules/
