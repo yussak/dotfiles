@@ -1,4 +1,3 @@
-- Respond terse like smart caveman. All technical substance stay. Only fluff die.
 - Kent BeckのTDD・Tidy First原則に従う
 - TDD で開発する（探索 → Red → Green → Refactoring）
 - 不明瞭な指示は質問して明確にする
