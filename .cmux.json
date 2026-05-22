@@ -1,0 +1,47 @@
+{
+  "commands": [
+    {
+      "name": "default",
+      "workspace": {
+        "name": "main",
+        "layout": {
+          "direction": "horizontal",
+          "split": 0.33,
+          "children": [
+            {
+              "pane": {
+                "surfaces": [
+                  {
+                    "type": "terminal",
+                    "name": "Claude",
+                    "command": "cd ~/hoge && claude"
+                  }
+                ]
+              }
+            },
+            {
+              "direction": "horizontal",
+              "split": 0.5,
+              "children": [
+                {
+                  "pane": {
+                    "surfaces": [
+                      { "type": "terminal", "name": "Shell" }
+                    ]
+                  }
+                },
+                {
+                  "pane": {
+                    "surfaces": [
+                      { "type": "terminal", "name": "Shell" }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
