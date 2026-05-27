@@ -1,12 +1,17 @@
 {
+    // ショートカット設定
     "shortcuts": {
       "bindings": {
+        // 分割サイズを均等にする（デフォルト ctrl+cmd+= が動かないため変更）
         "equalizeSplits": "shift+cmd+e",
+        // 上記と競合するのと使わなそうなので無効化
         "focusRightSidebar": null
       }
     },
   
+    // カスタムコマンド
     "commands": [
+      // ペインを三等分
       {
         "name": "3pane",
         "keywords": ["claude", "three"],
@@ -59,6 +64,7 @@
           }
         }
       },
+      // ペインを二等分
       {
         "name": "2pane",
         "keywords": ["claude", "two"],
