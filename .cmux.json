@@ -1,47 +1,109 @@
 {
-  "commands": [
-    {
-      "name": "default",
-      "workspace": {
-        "name": "main",
-        "layout": {
-          "direction": "horizontal",
-          "split": 0.33,
-          "children": [
-            {
-              "pane": {
-                "surfaces": [
+    "commands": [
+      {
+        "name": "default",
+        "workspace": {
+          "name": "main",
+          "layout": {
+            "direction": "horizontal",
+            "split": 0.333,
+            "children": [
+              {
+                "pane": {
+                  "surfaces": [
+                    {
+                      "type": "terminal",
+                      "name": "Claude 1",
+                      "command": "cd ~/hoge && claude"
+                    }
+                  ]
+                }
+              },
+              {
+                "direction": "horizontal",
+                "split": 0.5,
+                "children": [
                   {
-                    "type": "terminal",
-                    "name": "Claude",
-                    "command": "cd ~/hoge && claude"
+                    "pane": {
+                      "surfaces": [
+                        {
+                          "type": "terminal",
+                          "name": "Claude 2",
+                          "command": "cd ~/hoge && claude"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "pane": {
+                      "surfaces": [
+                        {
+                          "type": "terminal",
+                          "name": "Claude 3",
+                          "command": "cd ~/{
+    "commands": [
+      {
+        "name": "default",
+        "workspace": {
+          "name": "main",
+          "layout": {
+            "direction": "horizontal",
+            "split": 0.333,
+            "children": [
+              {
+                "pane": {
+                  "surfaces": [
+                    {
+                      "type": "terminal",
+                      "name": "Claude 1",
+                      "command": "cd ~/hoge && claude"
+                    }
+                  ]
+                }
+              },
+              {
+                "direction": "horizontal",
+                "split": 0.5,
+                "children": [
+                  {
+                    "pane": {
+                      "surfaces": [
+                        {
+                          "type": "terminal",
+                          "name": "Claude 2",
+                          "command": "cd ~/hoge && claude"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "pane": {
+                      "surfaces": [
+                        {
+                          "type": "terminal",
+                          "name": "Claude 3",
+                          "command": "cd ~/hoge && claude"
+                        }
+                      ]
+                    }
                   }
                 ]
               }
-            },
-            {
-              "direction": "horizontal",
-              "split": 0.5,
-              "children": [
-                {
-                  "pane": {
-                    "surfaces": [
-                      { "type": "terminal", "name": "Shell" }
-                    ]
-                  }
-                },
-                {
-                  "pane": {
-                    "surfaces": [
-                      { "type": "terminal", "name": "Shell" }
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
+            ]
+          }
         }
       }
-    }
-  ]
-}
+    ]
+  } && claude"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
