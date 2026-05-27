@@ -1,100 +1,57 @@
 {
-    "commands": [
-      {
-        "name": "default",
-        "workspace": {
-          "name": "main",
-          "layout": {
-            "direction": "horizontal",
-            "split": 0.333,
-            "children": [
-              {
-                "pane": {
-                  "surfaces": [
-                    {
-                      "type": "terminal",
-                      "name": "Claude 1",
-                      "command": "cd ~/hoge && claude"
-                    }
-                  ]
-                }
-              },
-              {
-                "direction": "horizontal",
-                "split": 0.5,
-                "children": [
-                  {
-                    "pane": {
-                      "surfaces": [
-                        {
-                          "type": "terminal",
-                          "name": "Claude 2",
-                          "command": "cd ~/hoge && claude"
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "pane": {
-                      "surfaces": [
-                        {
-                          "type": "terminal",
-                          "name": "Claude 3",
-                          "command": "cd ~/{
-    "commands": [
-      {
-        "name": "default",
-        "workspace": {
-          "name": "main",
-          "layout": {
-            "direction": "horizontal",
-            "split": 0.333,
-            "children": [
-              {
-                "pane": {
-                  "surfaces": [
-                    {
-                      "type": "terminal",
-                      "name": "Claude 1",
-                      "command": "cd ~/hoge && claude"
-                    }
-                  ]
-                }
-              },
-              {
-                "direction": "horizontal",
-                "split": 0.5,
-                "children": [
-                  {
-                    "pane": {
-                      "surfaces": [
-                        {
-                          "type": "terminal",
-                          "name": "Claude 2",
-                          "command": "cd ~/hoge && claude"
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "pane": {
-                      "surfaces": [
-                        {
-                          "type": "terminal",
-                          "name": "Claude 3",
-                          "command": "cd ~/hoge && claude"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
+    // ショートカット設定
+    "shortcuts": {
+      "bindings": {
+        // 分割サイズを均等にする（デフォルト ctrl+cmd+= が動かないため変更）
+        "equalizeSplits": "shift+cmd+e",
+        // 上記と競合するのと使わなそうなので無効化
+        "focusRightSidebar": null
       }
-    ]
-  } && claude"
+    },
+  
+    // カスタムコマンド
+    "commands": [
+      {
+        "name": "default",
+        "workspace": {
+          "name": "main",
+          "layout": {
+            "direction": "horizontal",
+            "split": 0.333,
+            "children": [
+              {
+                "pane": {
+                  "surfaces": [
+                    {
+                      "type": "terminal",
+                      "name": "Claude 1",
+                      "command": "cd ~/hoge && claude"
+                    }
+                  ]
+                }
+              },
+              {
+                "direction": "horizontal",
+                "split": 0.5,
+                "children": [
+                  {
+                    "pane": {
+                      "surfaces": [
+                        {
+                          "type": "terminal",
+                          "name": "Claude 2",
+                          "command": "cd ~/hoge && claude"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "pane": {
+                      "surfaces": [
+                        {
+                          "type": "terminal",
+                          "name": "Claude 3",
+                          "command": "cd ~/hoge && claude"
                         }
                       ]
                     }
