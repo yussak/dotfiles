@@ -13,7 +13,7 @@
     "commands": [
       // ペインを三等分
       {
-        "name": "3pane",
+        "name": "3",
         "keywords": ["claude", "three"],
         "workspace": {
           "name": "main",
@@ -66,7 +66,7 @@
       },
       // ペインを二等分
       {
-        "name": "2pane",
+        "name": "2",
         "keywords": ["claude", "two"],
         "workspace": {
           "name": "main",
