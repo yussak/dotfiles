@@ -1,2 +1,2 @@
-# theme = Everforest Dark Hard
-theme = catpuccin-mocha
+# 終了時の警告を出さない
+confirm-close-surface = false
