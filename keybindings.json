@@ -1,0 +1,9 @@
+// vscodeのショートカット変更
+[
+  {
+    "key": "cmd+b",
+    // mdファイルの時に太字にするのを無効化
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/",
+  },
+]
