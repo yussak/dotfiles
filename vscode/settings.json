@@ -44,5 +44,6 @@
   "github.copilot.nextEditSuggestions.fixes": false,
   "github.copilot.nextEditSuggestions.extendedRange": false,
   "workbench.browser.searchEngine": "google",
+  // localhostのリンクをエディタではなくデフォルトブラウザで開く
   "workbench.browser.openLocalhostLinks": false,
 }
