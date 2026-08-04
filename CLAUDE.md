@@ -1,3 +1,4 @@
 - Kent BeckのTDD・Tidy First原則に従う
-- TDD で開発する（探索 → Red → Green → Refactoring）
+- TDD で開発する
 - 不明瞭な指示は質問して明確にする
+- 複数案を提案する際には推奨度（星5つ）と理由を回答する
