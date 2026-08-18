@@ -29,6 +29,14 @@
   "git.enableSmartCommit": true,
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#666666cc",
+    // cmd+fで検索時の色
+    "editor.findMatchBackground": "#ff6a0090",
+    "editor.findMatchBorder": "#ff6a00",
+    "editor.findMatchForeground": "#ffffff",
+    "editor.findMatchHighlightBackground": "#ffd33d40",
+    "editor.findMatchHighlightBorder": "#ffd33d80",
+    "editor.findMatchHighlightForeground": "#ffffff",
+    "editor.findRangeHighlightBackground": "#ffffff15"
   },
   "security.workspace.trust.untrustedFiles": "open",
   "extensions.ignoreRecommendations": true,
